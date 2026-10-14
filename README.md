@@ -311,3 +311,7 @@ For other hosts, configure the equivalent:
 | Missing poster images | The server serves uploaded posters via Cloudinary; check `CLOUDINARY_*` env vars in `server/.env` |
 | TypeScript errors after editing | Run `npm run build` to surface `tsc -b` type errors |
 | Wrong or missing sidebar icon | Ensure `src/assets/navbar/<name>.png` exists and matches `iconPath("<name>")` in `UrlPathConfig.ts` |
+
+## License
+
+Original code and documentation authored by Jakkarin Promsee are licensed under the [MIT License](LICENSE). Third-party code, assets, datasets, and other materials are not covered by this license; their original terms apply.
